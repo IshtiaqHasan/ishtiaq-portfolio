@@ -7,9 +7,9 @@ import logo3 from '../../assets/icons/logo3.png';
 
 const Skills = () => {
     return (
-        <div className='container mx-auto px-20 '>
-            <h1 className='text-4xl text-secondary font-bold mt-10 mb-10 text-left'>My Skills</h1>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20'>
+        <div >
+            <h1 className='text-4xl text-orange-500 font-bold mt-2 mb-20 text-left'>My Skills</h1>
+            <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-20'>
                 <div class="card card-compact w-96 bg-base-100 shadow-xl">
                     <figure><img src={logo1} alt="Shoes" /></figure>
                     <div class="card-body">
@@ -49,9 +49,6 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div >
-                <button className='btn btn-primary btn-wide btn-lg mb-5 mt-5 text-center' >My Resume</button>
             </div>
 
         </div>
