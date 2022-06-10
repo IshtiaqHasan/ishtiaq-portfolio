@@ -29,8 +29,10 @@ const Contact = () => {
         <div class="hero min-h-screen">
             <div class="hero-content flex-col lg:flex-row-reverse">
                 <div class="text-center lg:text-left">
-                    <h1 class="text-4xl text-orange-500 font-bold mb-10 text-left mx-5">Contact With Me</h1>
-                    <div className='flex'>
+                    <h1 class="text-4xl text-orange-500 font-bold mb-2 text-left mx-5">Contact With Me</h1>
+                    <p className='mx-5 '> <span className='text-secondary font-bold'>Email:</span> <span className='font-bold'>ishtiaqhasan1992@gmail.com</span> </p>
+                    <p className='mx-5'><span className='text-secondary font-bold'>Phone:</span> <span className='font-bold'>+8801740270747</span></p>
+                    <div className='flex mt-5'>
                         <a href="https://github.com/IshtiaqHasan?tab=repositories" target="_blank"><img className='mx-5' src={git} alt="" /></a>
                         <a href="https://www.linkedin.com/in/md-ishtiaq-hasan-435a07193/" target="_blank"><img className='mx-5' src={linkedin} alt="" /></a>
                         <a href="mailto:ishtiaqhasan1992@gmail.com" target="_blank"><img className='mx-5' src={mail} alt="" /></a>
