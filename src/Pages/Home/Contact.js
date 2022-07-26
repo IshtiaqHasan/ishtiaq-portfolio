@@ -39,7 +39,7 @@ const Contact = () => {
                     </div>
 
                 </div>
-                <form ref={form} onSubmit={sendEmail} class="card  shadow-2xl bg-base-100">
+                <form ref={form} onSubmit={sendEmail} class="card mr-24 shadow-2xl bg-base-100">
                     <div class="card-body">
                         <div className='text-center mx-10'>
                             <input type="text" name='email' placeholder="Email Address" className="input input-bordered  w-full max-w-xs mt-5 mb-2" />
