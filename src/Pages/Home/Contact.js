@@ -27,7 +27,7 @@ const Contact = () => {
     };
     return (
         <div class="hero min-h-screen">
-            <div class="hero-content flex-col lg:flex-row-reverse">
+            <div class=" hero-content flex-col lg:flex-row-reverse">
                 <div class="text-center lg:text-left">
                     <h1 class="text-4xl text-orange-500 font-bold mb-2 text-left mx-5">Contact With Me</h1>
                     <p className='mx-5 '> <span className='text-secondary font-bold'>Email:</span> <span className='font-bold'>ishtiaqhasan1992@gmail.com</span> </p>
